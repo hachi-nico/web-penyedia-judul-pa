@@ -1,0 +1,28 @@
+thead.main-page-bg,
+.navbar.main-page-bg {
+    background-color: #1F2229;
+}
+
+@media (min-width: 576px) {
+    .login-card {
+        width: 100%;
+    }
+
+    .card.main-cards {
+        display: block;
+    }
+}
+
+@media (min-width: 992px) {
+    .login-card {
+        width: 50%;
+    }
+
+    .card.main-cards {
+        display: none;
+    }
+
+    .table-responsive {
+        display: block !important;
+    }
+}
